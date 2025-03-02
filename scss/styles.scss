@@ -84,11 +84,11 @@ $success: #7952b3;
 @import "bootstrap/scss/utilities/api";
 
 // Third party
-$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "../node_modules/animate.css/animate.min.css";
+$fa-font-path: "../third_party/fontawesome-free/webfonts";
+@import "../third_party/fontawesome-free/scss/fontawesome";
+@import "../third_party/fontawesome-free/scss/solid";
+@import "../third_party/fontawesome-free/scss/brands";
+@import "../third_party/animate.css/animate.min.css";
 
 @import "../third_party/swiper/package/swiper-bundle.min.css";
 
