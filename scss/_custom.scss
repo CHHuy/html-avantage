@@ -51,6 +51,9 @@ body.custom-page {
     }
   }
   .section-5 {
+    .section-5-title {
+      margin-bottom: 8rem;
+    }
     .section-comment-swiperjs {
       width: 90%;
     }
@@ -61,6 +64,7 @@ body.custom-page {
       justify-content: center;
       align-items: center;
       h2 {
+        font-size: 3rem;
         font-weight: bold;
         color: $pink-color;
       }
@@ -149,7 +153,6 @@ body.custom-page {
       }
     }
   }
-
   .section-subscribe {
     position: relative;
     .subscribe-bg {
@@ -190,6 +193,30 @@ body.custom-page {
         color: #fff;
         border-radius: 0.8rem;
         background-color: #e94d65;
+      }
+    }
+  }
+
+  &.page-contact {
+    .section-subscribe {
+      margin-bottom: 5rem;
+      .subscribe-content {
+        display: block;
+      }
+    }
+    .section-contact {
+      .style-line {
+        justify-content: start;
+        &::after {
+          content: none;
+        }
+      }
+      .section-contact-title,
+      .section-contact-description {
+        text-align: start;
+      }
+      img {
+        width: 100%;
       }
     }
   }
