@@ -220,4 +220,118 @@ body.custom-page {
       }
     }
   }
+
+  &.page-services {
+    .section-3.section-3-services {
+      .section-3-head {
+        margin: auto;
+        margin-bottom: 4rem;
+      }
+      @include media-breakpoint-up(md) {
+        .section-3-head {
+          width: 60%;
+        }
+      }
+      .section-3-description {
+        text-align: center;
+      }
+      .section-3-title {
+        text-align: center;
+        .style-line {
+          justify-content: center;
+          &:after {
+            content: " ";
+            width: 4rem;
+            border-top: 2px solid #e94d65;
+            margin-top: -1px;
+            margin-bottom: 0;
+            margin-left: 10px;
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+    .section-subscribe {
+      margin-bottom: 6rem;
+      .subscribe-bg {
+        background-image: url(../uploads/bgn-searching.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 0.8rem;
+        opacity: 1;
+      }
+      .subscribe-content {
+        p,
+        h2 {
+          color: #fff;
+        }
+      }
+    }
+    .pricing-option {
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+      padding: 2rem;
+      .icon-wrapper {
+        background-color: $pink-color;
+        border-radius: 50%;
+        width: fit-content;
+        padding: 2rem;
+        margin-top: -65px;
+        margin-bottom: 1rem;
+        i {
+          font-size: 4.2rem;
+          color: #fff;
+        }
+      }
+      .price-pack {
+        border-width: 1px 0 1px 0;
+        border-style: solid;
+        border-color: #1919191f;
+        padding: 1rem 0;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        i {
+          color: $pink-color;
+          font-size: 2rem;
+        }
+        h2 {
+          color: $pink-color;
+          font-size: 5rem;
+          font-weight: bold;
+        }
+      }
+      .price-number {
+        flex: none;
+      }
+      .pack-name {
+        p {
+          text-transform: uppercase;
+          margin-bottom: 2px;
+        }
+        h4 {
+          font-size: 2.4rem;
+          font-weight: bold;
+        }
+      }
+      .pack-detail {
+        ul {
+          list-style: none;
+          li {
+            padding: 0.5rem 0;
+            &::before {
+              font-family: "Font Awesome 6 Free";
+              content: "\f00c";
+              margin: 0 8px 0 0;
+              color: $pink-color;
+            }
+          }
+        }
+      }
+    }
+  }
 }

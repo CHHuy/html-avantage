@@ -86,7 +86,7 @@ a {
     position: relative;
     font-weight: bold;
     &.active {
-      &::after {
+      &::before {
         content: " ";
         display: block;
         position: absolute;
