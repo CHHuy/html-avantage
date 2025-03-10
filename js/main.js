@@ -2,10 +2,6 @@
 //
 // This includes Popper and all of Bootstrap's JS plugins.
 import "../third_party/bootstrap/dist/js/bootstrap.bundle.min.js";
-import "../third_party/jquery.min.js";
-
-import Swiper from "../third_party/swiper/package/swiper-bundle.min.mjs";
-import WOW from "../third_party/wow.js/src/WOW.js";
 
 //
 // Place any custom JS here
